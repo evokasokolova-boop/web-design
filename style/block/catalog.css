@@ -1,0 +1,228 @@
+.catalog {
+    padding: 117px 0 175px;
+}
+
+.catalog__title {
+    color: var(--color-black);
+    text-transform: uppercase;
+    font-size: 59px;
+    font-family: var(--font-kudryashev);
+    font-weight: 400;
+}
+
+.catalog__wrapper-el:not(:last-child) {
+    margin-bottom: 100px;
+}
+
+.catalog__list {
+    display: flex;
+    gap: 31px;
+    margin-bottom: 58px;
+}
+
+.catalog__item {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.catalog__item {
+    color: var(--color-black);
+}
+
+.catalog__item-media {
+    position: relative;
+    line-height: 0;
+}
+
+.catalog__item-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.catalog__item-busket {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.catalog__item-busket:hover {
+    --basket-bg: #000000;
+    --basket-fg: #FFFFFF;
+}
+
+.catalog__item-like {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.catalog__item-like:hover {
+    --like-fill: #D40000;
+    --like-stroke: #D40000;
+}
+
+.catalog__item-category {
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.catalog__item-features {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.catalog__item-price,
+.catalog__item-name {
+    font-size: 20px;
+    font-family: var(--font-arial-black);
+}
+
+.catalog__btn {
+    background-color: var(--color-sage);
+    display: block;
+    font-size: 11px;
+    text-align: center;
+    padding: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.3s ease;
+
+    &:hover {
+        background-color: var(--color-sage-mid);
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .catalog {
+        padding: 80px 0 100px;
+    }
+
+    .catalog__title {
+        font-size: 46px;
+    }
+
+    .catalog__item-name,
+    .catalog__item-price,
+    .catalog__item-features {
+        font-size: 17px;
+    }
+
+    .catalog__wrapper-el:not(:last-child) {
+        margin-bottom: 64px;
+    }
+
+    .catalog__list {
+        margin-bottom: 48px;
+    }
+}
+
+@media (max-width: 768px) {
+    .catalog {
+        padding: 48px 0 64px;
+    }
+
+    .catalog__title {
+        font-size: 38px;
+    }
+
+    .catalog__list {
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-bottom: 32px;
+    }
+
+    .catalog__item {
+        width: calc(50% - 10px);
+        flex-shrink: 0;
+    }
+
+    .catalog__item-busket {
+        transform: scale(0.8);
+        transform-origin: bottom left;
+    }
+
+    .catalog__item-like {
+        transform: scale(0.8);
+        transform-origin: top right;
+    }
+
+    .catalog__wrapper-el:not(:last-child) {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .catalog {
+        padding: 16px 0;
+    }
+
+    .catalog__title {
+        font-size: 30px;
+    }
+
+    .catalog__item {
+        width: calc(50% - 8px);
+    }
+
+    .catalog__list {
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 24px 16px;
+        margin-bottom: 24px;
+    }
+
+    .catalog__item-name,
+    .catalog__item-price,
+    .catalog__item-features {
+        font-size: 12px;
+    }
+
+    .catalog__item-category {
+        font-size: 8px;
+    }
+
+    .catalog__item-busket {
+        transform: scale(0.65);
+        transform-origin: bottom left;
+    }
+
+    .catalog__item-like {
+        transform: scale(0.65);
+        transform-origin: top right;
+    }
+
+    .catalog__wrapper-el:not(:last-child) {
+        margin-bottom: 24px;
+    }
+}
+
+@media (max-width: 375px) {
+    .catalog__list {
+        gap: 20px 10px;
+        margin-bottom: 18px;
+    }
+
+    .catalog__item {
+        width: calc(50% - 5px);
+    }
+
+    .catalog__item-name,
+    .catalog__item-price,
+    .catalog__item-features {
+        font-size: 11px;
+    }
+
+    .catalog__item-category {
+        font-size: 7px;
+    }
+
+    .catalog__wrapper-el:not(:last-child) {
+        margin-bottom: 16px;
+    }
+}

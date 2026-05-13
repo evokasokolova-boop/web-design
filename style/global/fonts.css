@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "Roboto Mono";
+    src: url('../../assets/fonts/RobotoMono-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Poiret One";
+    src: url('../../assets/fonts/PoiretOne-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Kudry";
+    src: url('../../assets/fonts/kudry_weird-headline.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Kudryashev Display";
+    src: url('../../assets/fonts/kudryashevdisplay-sans.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Arial-Black";
+    src: url('../../assets/fonts/arial_black.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <ul class="header_list container">
+            <li class="header_item"><a href="#" class="header_link">профиль</a></li>
+            <li class="header_item"><a href="catalog.html" class="header_link">каталог</a></li>
+            <li class="header_item">
+                <a href="index.html" class="header_link">
+                    <svg width="37" height="33" viewBox="0 0 37 33">
+                        <use xlink:href="../assets/sprite/sprite.svg#logo-icon"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="header_item"><a href="#" class="header_link">корзина</a></li>
+            <li class="header_item"><a href="#" class="header_link">избранное</a></li>
+        </ul>
+    </header>
+    <section class="ne-hero ne-hero--small">
+        <div class="ne-hero__wrapper container">
+            <h1 class="ne-hero__title">
+                Дом Аромата
+            </h1>
+        </div>
+    </section>
+
+    <section class="product-card">
+        <div class="product-card__wrapper container">
+            <div class="product-card__left">
+                <div class="product-card__img-wrapper">
+                    <img src="/assets/img/product-card/1.1.png" alt="" class="product-card__img">
+                    <div class="product-card__dots"></div>
+                </div>
+                <div class="product-card__inner">
+                    <p class="product-card__text">
+                        гарантия качества <br>продукции
+                    </p>
+                    <p class="product-card__text">
+                        бесплатная доставка от <br>1000 ₽
+                    </p>
+                    <p class="product-card__text">
+                        доставка по всей РФ
+                    </p>
+                </div>
+            </div>
+            <div class="product-card__right">
+                <p class="product-card__category">
+                    арома свеча
+                </p>
+                <p class="product-card__name">
+                    ESSENTIAL PARFUMS PARIS
+                </p>
+                <p class="product-card__features">
+                    ROSE MAGNETIC by Sophie Labbé
+                </p>
+                <p class="product-card__price">
+                    3 976 ₽
+                </p>
+                <div class="product-card__btn-wrapper">
+                    <button onclick="alert('Товар добавлен в корзину!')" class="product-card__btn-add">Добавить в
+                        корзину</button>
+                    <button class="product-card__btn-favorite">
+                        <svg width="28" height="27">
+                            <use xlink:href="../assets/sprite/sprite.svg#like-icon-large"></use>
+                        </svg>
+                    </button>
+                </div>
+                <div class="product-card__small-images">
+                    <img src="/assets/img/product-card/1.2.png" alt="" class="product-card__small-img">
+                    <img src="/assets/img/product-card/1.3.png" alt="" class="product-card__small-img">
+                    <img src="/assets/img/product-card/1.4.png" alt="" class="product-card__small-img">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="product-tabs container">
+        <div class="product-tabs__header">
+            <button class="product-tabs__btn product-tabs__btn--active" data-tab="description">ОПИСАНИЕ</button>
+            <button class="product-tabs__btn" data-tab="usage">ПРИМЕНЕНИЕ</button>
+            <button class="product-tabs__btn" data-tab="composition">СОСТАВ</button>
+            <button class="product-tabs__btn" data-tab="brand">БРЕНД</button>
+        </div>
+        <div class="product-tabs__content">
+            <div id="description" class="product-tabs__pane product-tabs__pane--active">
+                <h3 class="product-tabs__product-name"></h3>
+                <p id="descriptionText"></p>
+            </div>
+            <div id="usage" class="product-tabs__pane">
+                <h3 class="product-tabs__product-name"></h3>
+                <p id="usageText"></p>
+            </div>
+            <div id="composition" class="product-tabs__pane">
+                <h3 class="product-tabs__product-name"></h3>
+                <p id="compositionText"></p>
+            </div>
+            <div id="brand" class="product-tabs__pane">
+                <h3 class="product-tabs__product-name"></h3>
+                <p id="brandText"></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="product-specs container">
+        <h2 class="product-specs__title">
+            Характеристики</h2>
+        <div class="product-specs__box">
+            <div class="product-specs__item">
+                <span class="product-specs__label">тип продукта</span>
+                <span class="product-specs__line"></span>
+                <span class="product-specs__value" id="specType">ароматические свечи</span>
+            </div>
+            <div class="product-specs__item">
+                <span class="product-specs__label">группа ароматов</span>
+                <span class="product-specs__line"></span>
+                <span class="product-specs__value" id="specGroup">цветочные</span>
+            </div>
+            <div class="product-specs__item">
+                <span class="product-specs__label">верхние ноты</span>
+                <span class="product-specs__line"></span>
+                <span class="product-specs__value" id="specTopNotes">роза, личи, грейпфрут</span>
+            </div>
+            <div class="product-specs__item">
+                <span class="product-specs__label">средние ноты</span>
+                <span class="product-specs__line"></span>
+                <span class="product-specs__value" id="specMiddleNotes">кедр, мускус</span>
+            </div>
+            <div class="product-specs__item">
+                <span class="product-specs__label">базовые ноты</span>
+                <span class="product-specs__line"></span>
+                <span class="product-specs__value" id="specBaseNotes">ваниль</span>
+            </div>
+            <div class="product-specs__item">
+                <span class="product-specs__label">вес</span>
+                <span class="product-specs__line"></span>
+                <span class="product-specs__value" id="specWeight">270 г</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="product-similar container">
+        <h2 class="product-similar__title">
+            Похожие товары</h2>
+        <ul class="catalog__list" id="similarList">
+            
+        </ul>
+    </div>
+
+
+    <footer class="footer">
+        <div class="footer__wrapper container">
+            <a href="" class="footer__logo">
+                <svg width="124" height="69" viewBox="0 0 124 69">
+                    <use xlink:href="../assets/sprite/sprite.svg#logo-text-small"></use>
+                </svg>
+            </a>
+            <div class="footer__inner">
+                <a href="tel:+79522791308" target="_blank" class="footer__link">+7(952) 279 1308</a>
+                <a href="https://web.telegram.org/a/" target="_blank" class="footer__link">telegram</a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="footer__link">instagram</a>
+                <a href="#" target="_blank" class="footer__link">оплата и доставка</a>
+            </div>
+        </div>
+    </footer>
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>
