@@ -26,11 +26,7 @@ export function initProductCard() {
 
     function getImagePath(img) {
         if (!img) return '';
-        if (img.startsWith('../') || img.startsWith('/') || img.startsWith('http')) {
-
-            return img.replace('../../../', './');
-        }
-        return `./assets/img/catalog/${img}`;
+        return img;
     }
 
     const mainImgEl = document.querySelector('.product-card__img');
@@ -171,10 +167,10 @@ export function initProductCard() {
                     <div class="catalog__item-media">
                         <img src="${imgPath}" alt="${p.name}" class="catalog__item-img">
                         <svg class="catalog__item-busket" width="35" height="35">
-                            <use xlink:href="../assets/sprite/sprite.svg#busket-icon"></use>
+                            <use xlink:href="assets/sprite/sprite.svg#busket-icon"></use>
                         </svg>
                         <svg class="catalog__item-like" width="20" height="19">
-                            <use xlink:href="../assets/sprite/sprite.svg#like-icon"></use>
+                            <use xlink:href="assets/sprite/sprite.svg#like-icon"></use>
                         </svg>
                     </div>
                     <div class="catalog__item-inner">
