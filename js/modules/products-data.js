@@ -5,7 +5,7 @@ export const catalogProducts = [
     name: "zieliski & Rozen",
     features: "amberwood, vanilla, davana",
     price: "от 3 990 ₽",
-    images: ["../../../assets/img/catalog/catalog-1.png"],
+    images: ["assets/img/catalog/catalog-1.png"],
     description:
       "Премиальный интерьерный диффузор Zielinski & Rozen с глубокой, обволакивающей и чувственной парфюмерной композицией. Насыщенный аромат раскрывается постепенно, наполняя комнату тонкими штрихами благородной древесины и пряной сладости. Элегантный флакон из тёмного стекла в винтажном аптечном стиле превосходно вписывается в современный интерьер, превращаясь в стильный элемент декора и создавая ауру гармонии и спокойствия.",
     usage:
@@ -21,7 +21,7 @@ export const catalogProducts = [
     name: "banka home",
     features: "чистый хлопок",
     price: "от 1 295 ₽",
-    images: ["../../../assets/img/catalog/catalog-2.png"],
+    images: ["assets/img/catalog/catalog-2.png"],
     description:
       "Уютная парфюмированная свеча Banka Home с нежным и утончённым ароматом свежевыстиранного хлопкового белья. Её мягкое свечение и деликатный аромат создают неповторимую атмосферу лёгкости, чистоты и свежести в доме. Идеально подходит для спальни, ванной комнаты или гостиной, помогая снять стресс и усталость после насыщенного рабочего дня.",
     usage:
@@ -37,7 +37,7 @@ export const catalogProducts = [
     name: "flame moscow",
     features: "marie",
     price: "от 4 645 ₽",
-    images: ["../../../assets/img/catalog/catalog-3.png"],
+    images: ["assets/img/catalog/catalog-3.png"],
     description:
       "Изысканный интерьерный диффузор Marie от московской студии Flame Moscow. Его многогранный цветочно-древесный характер переносит в цветущий весенний сад после тёплого дождя, раскрываясь благородными зелёными аккордами и чувственным мускусным шлейфом. Это идеальное решение для создания неповторимой ольфакторной подписи вашего дома или офиса.",
     usage:
@@ -53,7 +53,7 @@ export const catalogProducts = [
     name: "the svechi",
     features: "pink",
     price: "от 2 300 ₽",
-    images: ["../../../assets/img/catalog/catalog-4.png"],
+    images: ["assets/img/catalog/catalog-4.png"],
     description:
       "Романтичный и игривый аромат диффузора Pink от бренда The Svechi наполнен радостным дыханием спелых ягод, нежных бутонов пиона и сочного грейпфрута. Этот диффузор дарит солнечное настроение, заряжает энергией и привносит в пространство атмосферу лёгкого праздника и летней беззаботности.",
     usage:
@@ -69,7 +69,7 @@ export const catalogProducts = [
     name: "dr.vranjes firenzer",
     features: "rosso nobile",
     price: "от 7 800 ₽",
-    images: ["../../../assets/img/catalog/catalog-5.png"],
+    images: ["assets/img/catalog/catalog-5.png"],
     description:
       "Роскошный коллекционный аромат Rosso Nobile от Dr. Vranjes Firenze воссоздаёт утончённые ноты выдержанного тосканского красного вина. Сложный букет раскрывается аккордами винограда, лесных ягод (черники, ежевики и малины), плавно переходя в благородное звучание берёзы и нежной фиалки. Настоящее произведение ольфакторного искусства для истинных ценителей роскоши.",
     usage:
@@ -85,7 +85,7 @@ export const catalogProducts = [
     name: "nice by septivit",
     features: "formula 01",
     price: "от 396 ₽",
-    images: ["../../../assets/img/catalog/catalog-6.png"],
+    images: ["assets/img/catalog/catalog-6.png"],
     description:
       "Универсальный освежающий спрей для дома Formula 01 от Nice by Septivit мгновенно нейтрализует неприятные запахи и дарит пространству приятный, деликатный и чистый аромат. Отличный выбор для быстрой свежести в гостиной, прихожей, кухне или ванной комнате.",
     usage:
@@ -101,7 +101,7 @@ export const catalogProducts = [
     name: "logevy firenze 1965",
     features: "peonia in fiore",
     price: "от 8 800 ₽",
-    images: ["../../../assets/img/catalog/catalog-7.png"],
+    images: ["assets/img/catalog/catalog-7.png"],
     description:
       "Аристократичный интерьерный парфюм-спрей Peonia in Fiore от итальянского бренда Logevy Firenze 1965. Невероятно нежная, пышная и утончённая композиция посвящена цветущему пиону — символу вечной женственности и весеннего обновления. Аромат наполняет дом благородной прохладой лепестков пиона, сладостью спелого персика и мягким теплом белого мускуса.",
     usage:
@@ -117,7 +117,7 @@ export const catalogProducts = [
     name: "flame moscow",
     features: "room spray vanda",
     price: "от 1 400 ₽",
-    images: ["../../../assets/img/catalog/catalog-8.png"],
+    images: ["assets/img/catalog/catalog-8.png"],
     description:
       "Многофункциональный интерьерный спрей Vanda от Flame Moscow окутывает пространство загадочным, томным и манящим облаком дикой тропической орхидеи. Аромат дарит ощущение тепла, гармонии и защищённости, мягко трансформируясь из сладких цветочных нот в благородный древесный шлейф.",
     usage:
@@ -133,7 +133,7 @@ export const catalogProducts = [
     name: "essential parfums paris",
     features: "the musc by calice becker",
     price: "от 4 380 ₽",
-    images: ["../../../assets/img/product-card/1.1.png", "../../../assets/img/product-card/1.2.png", "../../../assets/img/product-card/1.3.png", "../../../assets/img/product-card/1.4.png"],
+    images: ["assets/img/product-card/1.1.png", "assets/img/product-card/1.2.png", "assets/img/product-card/1.3.png", "assets/img/product-card/1.4.png"],
     description:
       "Люксовая ароматическая свеча The Musc, созданная великим парфюмером Калис Беккер для парижского дома Essential Parfums. Тёплая, чувственная и притягательная композиция построена вокруг чарующего аккорда белого мускуса, оттенённого свежим имбирем, сладким лавандовым мёдом и благородным сандалом. Это истинное воплощение утончённого парижского стиля в вашем доме.",
     usage:
@@ -149,7 +149,7 @@ export const catalogProducts = [
     name: "banka home",
     features: "чистый хлопок",
     price: "от 1 295 ₽",
-    images: ["../../../assets/img/catalog/catalog-10.png"],
+    images: ["assets/img/catalog/catalog-10.png"],
     description:
       "Экологичная соевая свеча «Чистый хлопок» от Banka Home наполнит пространство деликатным, ненавязчивым запахом свежести и чистоты. Легкие пудровые ноты и мягкий аромат хлопка создают ощущение безупречного порядка и домашнего тепла, способствуя глубокому расслаблению ума и тела.",
     usage:
@@ -165,7 +165,7 @@ export const catalogProducts = [
     name: "Aromica",
     features: "летний сад",
     price: "от 1 640 ₽",
-    images: ["../../../assets/img/catalog/catalog-11.png"],
+    images: ["assets/img/catalog/catalog-11.png"],
     description:
       "Яркая парфюмированная свеча «Летний сад» от Aromica мгновенно переносит в пышный, благоухающий сад в разгар июльского дня. Богатая композиция раскрывается нотами спелых садовых фруктов, нежной майской розы, жасмина и свежескошенной травы, наполняя дом радостным летним теплом и гармонией.",
     usage:
@@ -181,7 +181,7 @@ export const catalogProducts = [
     name: "Noya",
     features: "tobacco leaf",
     price: "от 1 536 ₽",
-    images: ["../../../assets/img/catalog/catalog-12.png"],
+    images: ["assets/img/catalog/catalog-12.png"],
     description:
       "Благородная, тёплая и глубокая ароматическая свеча Tobacco Leaf от бренда Noya. Её изысканная композиция раскрывается терпкими нотами сухого табачного листа, пряных специй и сладкой карамелизированной ванили, плавно переходя в древесные аккорды кедра и чувственного мускуса. Создаёт роскошную камерную атмосферу в кабинете, гостиной или спальне.",
     usage:
@@ -197,7 +197,7 @@ export const catalogProducts = [
     name: "flame moscow",
     features: "incense mira",
     price: "от 800 ₽",
-    images: ["../../../assets/img/catalog/catalog-13.png"],
+    images: ["assets/img/catalog/catalog-13.png"],
     description:
       "Премиальные ароматические палочки Incense Mira от Flame Moscow наполняют пространство глубоким, мистическим и медитативным ароматом древней мирры, ладана и тёплого сандала. Идеально подходят для йоги, глубоких медитаций, расслабления ума, очищения энергетики дома и обретения душевного спокойствия.",
     usage:
@@ -213,7 +213,7 @@ export const catalogProducts = [
     name: "casa leggera",
     features: "palo santo",
     price: "от 792 ₽",
-    images: ["../../../assets/img/catalog/catalog-14.png"],
+    images: ["assets/img/catalog/catalog-14.png"],
     description:
       "Натуральное благовоние Пало Санто от Casa Leggera — это щепки священного дерева Bursera Graveolens, произрастающего в Южной Америке. При тлении они издают неповторимый сладковато-древесный аромат с нотами сосны, мяты, цитрусовых и теплого ладана. Помогают очистить пространство от негативной энергии, снять тревожность и повысить концентрацию внимания.",
     usage:
@@ -229,7 +229,7 @@ export const catalogProducts = [
     name: "by kaori",
     features: "palo santo",
     price: "от 1 590 ₽",
-    images: ["../../../assets/img/catalog/catalog-15.png"],
+    images: ["assets/img/catalog/catalog-15.png"],
     description:
       "Эксклюзивный подарочный набор отборных палочек Пало Санто премиального качества от By Kaori. Каждая щепка проходит строгий ручной отбор на плотность и содержание смолы, гарантируя невероятно глубокий, чистый и многогранный древесно-цитрусовый аромат. Создает гармонию, расслабляет нервную систему и настраивает на глубокий сон или творческий процесс.",
     usage:
@@ -245,7 +245,7 @@ export const catalogProducts = [
     name: "satya",
     features: "black opium",
     price: "от 118 ₽",
-    images: ["../../../assets/img/catalog/catalog-16.png"],
+    images: ["assets/img/catalog/catalog-16.png"],
     description:
       "Классические индийские благовония Black Opium от всемирно известной фабрики Satya. Наполняют помещение богатым, томным, сладковато-пряным и экзотическим ароматом с восточными мотивами. Отлично подходят для создания расслабляющей, загадочной и романтичной атмосферы в вечернее время.",
     usage:
