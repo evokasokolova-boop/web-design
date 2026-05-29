@@ -1,12 +1,10 @@
 .author {
-    margin-bottom: 145px;
+    margin-bottom: 60px;
 }
 
 .author__wrapper {
     display: flex;
     gap: 34px;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
     border: 1px solid var(--color-forest-green);
 }
 
@@ -62,7 +60,6 @@
     .author__wrapper img {
         width: 40%;
         object-fit: cover;
-        border-radius: 8px 0 0 8px;
     }
 
     .author__inner {
@@ -96,14 +93,14 @@
         display: flex;
         flex-direction: column;
         gap: 10px;
-        border-top-right-radius: 0;
-        border-bottom-left-radius: 10px;
     }
 
     .author__wrapper img {
         width: 100%;
+        height: 175px;
+        object-fit: cover;
+        object-position: top;
         border-radius: 0;
-
     }
 
     .author__inner {

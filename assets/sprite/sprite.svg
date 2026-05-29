@@ -29,11 +29,38 @@
     </symbol>
 
 
-    <symbol id = "busket-icon" width="35" height="35" viewBox="0 0 35 35">
-        <rect width="35" height="35" rx="17.5" transform="matrix(-4.37114e-08 1 1 4.37114e-08 0 0)" fill="var(--basket-bg, #9BA57D)"/>
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.8571 13.8095V13.3333C13.8571 12.4493 14.2083 11.6014 14.8335 10.9763C15.4586 10.3512 16.3064 10 17.1905 10C18.0745 10 18.9224 10.3512 19.5475 10.9763C20.1726 11.6014 20.5238 12.4493 20.5238 13.3333V13.8095H23.381V26.1905H11V13.8095H13.8571ZM14.8095 13.3333C14.8095 12.7019 15.0604 12.0963 15.5069 11.6497C15.9534 11.2032 16.559 10.9524 17.1905 10.9524C17.8219 10.9524 18.4275 11.2032 18.8741 11.6497C19.3206 12.0963 19.5714 12.7019 19.5714 13.3333V13.8095H14.8095V13.3333ZM13.8571 14.7619V16.1905H14.8095V14.7619H19.5714V16.1905H20.5238V14.7619H22.4286V25.2381H11.9524V14.7619H13.8571Z" fill="var(--basket-fg, #F2F2F2)"/>
+    <symbol id = "busket-icon" width="34" height="34" viewBox="0 0 34 34">
+        <rect width="34" height="34" transform="matrix(-4.37114e-08 1 1 4.37114e-08 0 0)" fill="var(--basket-bg, #9BA57D)" />
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.7755 12.7007V12.2381C13.7755 11.3793 14.1167 10.5557 14.7239 9.94842C15.3312 9.34116 16.1548 9 17.0136 9C17.8724 9 18.696 9.34116 19.3033 9.94842C19.9105 10.5557 20.2517 11.3793 20.2517 12.2381V12.7007H23.0272V24.7279H11V12.7007H13.7755ZM14.7007 12.2381C14.7007 11.6247 14.9444 11.0364 15.3781 10.6026C15.8119 10.1689 16.4002 9.92517 17.0136 9.92517C17.627 9.92517 18.2153 10.1689 18.6491 10.6026C19.0828 11.0364 19.3265 11.6247 19.3265 12.2381V12.7007H14.7007V12.2381ZM13.7755 13.6259V15.0136H14.7007V13.6259H19.3265V15.0136H20.2517V13.6259H22.102V23.8027H11.9252V13.6259H13.7755Z" fill="var(--basket-fg, white)" />
     </symbol>
     <symbol id = "like-icon-large" width="28" height="27" viewBox="0 0 28 27">
         <path d="M12.9941 3.68224L13.6663 4.42567L14.3367 3.68224C15.046 2.90361 16.6635 1.52241 18.6003 0.939407C20.4629 0.379884 22.6245 0.54422 24.6932 2.8234C26.7711 5.11235 26.9364 7.53826 26.4165 9.6394C25.8816 11.7973 24.6207 13.5913 23.9132 14.368L17.8687 21.0314L14.4815 24.7661L13.6644 25.666L12.8511 24.7661L9.46389 21.0314L3.41936 14.368C2.7137 13.5893 1.45094 11.7973 0.916121 9.6394C0.396161 7.5363 0.561434 5.11431 2.63756 2.82144C4.70626 0.542263 6.86966 0.375972 8.73223 0.937451C10.6672 1.52045 12.2865 2.90165 12.9941 3.68224Z" fill="var(--like-fill, none)" stroke="var(--like-stroke, white)" stroke-width="1.33333" />
+    <symbol id="burger-icon" width="35" height="28" viewBox="0 0 35 28">
+        <g filter="url(#filter0_dd_1176_3933)">
+            <rect x="9.19922" y="9.19922" width="16" height="1" fill="#9BA57D" />
+            <rect x="9.23422" y="9.23422" width="15.93" height="0.93" stroke="white" stroke-opacity="0.49" stroke-width="0.07" />
+            <rect x="9.19922" y="13.1992" width="16" height="1" fill="#9BA57D" />
+            <rect x="9.23422" y="13.2342" width="15.93" height="0.93" stroke="white" stroke-opacity="0.49" stroke-width="0.07" />
+            <rect x="9.19922" y="17.1992" width="16" height="1" fill="#9BA57D" />
+            <rect x="9.23422" y="17.2342" width="15.93" height="0.93" stroke="white" stroke-opacity="0.49" stroke-width="0.07" />
+        </g>
+        <defs>
+            <filter id="filter0_dd_1176_3933" x="-0.000781059" y="-0.000781059" width="34.4" height="27.4" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                <feOffset />
+                <feGaussianBlur stdDeviation="4.6" />
+                <feComposite in2="hardAlpha" operator="out" />
+                <feColorMatrix type="matrix" values="0 0 0 0 0.312932 0 0 0 0 0.314275 0 0 0 0 0.315618 0 0 0 0.96 0" />
+                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1176_3933" />
+                <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                <feOffset />
+                <feGaussianBlur stdDeviation="1.9" />
+                <feComposite in2="hardAlpha" operator="out" />
+                <feColorMatrix type="matrix" values="0 0 0 0 0.686275 0 0 0 0 0.74902 0 0 0 0 0.498039 0 0 0 0.5 0" />
+                <feBlend mode="normal" in2="effect1_dropShadow_1176_3933" result="effect2_dropShadow_1176_3933" />
+                <feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_1176_3933" result="shape" />
+            </filter>
+        </defs>
     </symbol>
 </svg>
