@@ -1,0 +1,111 @@
+.categories {
+    padding: 45px 0;
+
+}
+
+.categories__cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 31px;
+}
+
+.categories__card {
+    --bg-image: url('../../assets/img/index-1.png');
+    height: 394px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+
+    &::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background-image: var(--bg-image);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.55);
+        transition: background 0.4s ease;
+    }
+
+    &:hover::before {
+        transform: scale(1.1);
+    }
+}
+
+.categories__card-2 {
+    --bg-image: url('../../assets/img/index-2.png');
+}
+
+.categories__card-3 {
+    --bg-image: url('../../assets/img/index-3.png');
+}
+
+.categories__card-4 {
+    --bg-image: url('../../assets/img/index-4.png');
+}
+
+.categories__link {
+    text-align: center;
+    line-height: 90%;
+    text-transform: uppercase;
+    font-size: 44px;
+    color: var(--color-white-smoke);
+    font-family: var(--font-kudryashev);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+@media (max-width: 1024px) {
+    .categories__link {
+        font-size: 36px;
+    }
+
+    .categories__card {
+        height: 320px;
+    }
+}
+
+@media (max-width: 768px) {
+    .categories__card {
+        height: 260px;
+    }
+
+    .categories__link {
+        font-size: 28px;
+    }
+
+    .categories__cards {
+        gap: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .categories__cards {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .categories__card {
+        height: 220px;
+    }
+
+    .categories__link {
+        font-size: 20px;
+    }
+}

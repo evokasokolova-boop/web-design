@@ -1,0 +1,18 @@
+:root {
+    
+    
+    --font-kudryashev: "Kudryashev Display", "Kudry", cursive, serif;
+    --font-poiret: "Poiret One", sans-serif;
+    --font-kudry: "Kudry", "Kudryashev Display", cursive, sans-serif;
+    --font-roboto-mono: "Roboto Mono", "Courier New", monospace;
+    --font-arial-black: "Arial Black", "Arial", sans-serif;
+
+    
+    --color-black: #000000;
+    --color-white-smoke: #FEFEFE;
+    --color-white: #FFFFFF;
+    --color-sage: #AFBF7F;
+    --color-forest-green: #485C11;
+    --color-olive-muted: #9BA57D;
+    --color-sage-mid: #5F6748;
+}
