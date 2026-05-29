@@ -47,11 +47,18 @@
     bottom: 10px;
     cursor: pointer;
     transition: all 0.3s ease;
+    --basket-bg: #9BA57D;
+    --basket-fg: white;
 }
 
 .catalog__item-busket:hover {
-    --basket-bg: #000000;
-    --basket-fg: #FFFFFF;
+    --basket-bg: #AFBF7F;
+    --basket-fg: white;
+}
+
+.catalog__item-busket.active {
+    --basket-bg: white;
+    --basket-fg: #9BA57D;
 }
 
 .catalog__item-like {
@@ -60,40 +67,60 @@
     top: 10px;
     cursor: pointer;
     transition: all 0.3s ease;
+    --like-fill: none;
+    --like-stroke: #9BA57D;
 }
 
 .catalog__item-like:hover {
+    --like-fill: #9BA57D;
+    --like-stroke: #9BA57D;
+}
+
+.catalog__item-like.active {
     --like-fill: #D40000;
     --like-stroke: #D40000;
 }
 
 .catalog__item-category {
-    font-size: 11px;
+    font-size: 16px;
+    margin-bottom: 12px;
     font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
 }
 
 .catalog__item-features {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+    margin-bottom: 18px;
 }
 
-.catalog__item-price,
-.catalog__item-name {
+.catalog__item-price {
     font-size: 20px;
     font-family: var(--font-arial-black);
 }
 
+.catalog__item-name {
+    font-size: 20px;
+    font-family: var(--font-arial-black);
+    text-transform: uppercase;
+}
+
 .catalog__btn {
-    background-color: var(--color-sage);
+    background-color: #9BA57D;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
     display: block;
-    font-size: 11px;
+    font-size: 16px;
     text-align: center;
     padding: 18px;
     font-family: Arial, Helvetica, sans-serif;
     transition: all 0.3s ease;
+    max-width: 736px;
+    margin: 0 auto;
 
     &:hover {
-        background-color: var(--color-sage-mid);
+        background-color: #AFBF7F;
     }
 }
 
@@ -155,6 +182,11 @@
     .catalog__wrapper-el:not(:last-child) {
         margin-bottom: 40px;
     }
+
+    .catalog__btn {
+        font-size: 14px;
+        padding: 12px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -168,6 +200,12 @@
 
     .catalog__item {
         width: calc(50% - 8px);
+        gap: 6px;
+    }
+
+    .catalog__item-category,
+    .catalog__item-features {
+        margin-bottom: 0;
     }
 
     .catalog__list {
@@ -199,6 +237,11 @@
 
     .catalog__wrapper-el:not(:last-child) {
         margin-bottom: 24px;
+    }
+
+    .catalog__btn {
+        font-size: 7px;
+        padding: 8px;
     }
 }
 

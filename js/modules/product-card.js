@@ -54,6 +54,15 @@ export function initProductCard() {
 
         const imagesToShow = product.images;
 
+        const smallImagesContainer = document.querySelector('.product-card__small-images');
+        if (smallImagesContainer) {
+            if (imagesToShow.length <= 1) {
+                smallImagesContainer.style.display = 'none';
+            } else {
+                smallImagesContainer.style.display = '';
+            }
+        }
+
         imagesToShow.forEach((img, idx) => {
             
             if (smallImgs && smallImgs[idx]) {

@@ -1,9 +1,9 @@
 .footer {
-    height: 388px;
+    height: 189px;
     background-image: url('../../assets/img/footer.png');
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 0 0 53px;
+    padding: 51px 0px 31px;
     display: flex;
     flex-direction: column-reverse;
 }
@@ -13,23 +13,46 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .footer__inner {
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
     gap: 120px;
+}
+
+.footer__contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    gap: 16px;
 }
 
 .footer__link {
     font-size: 23px;
     font-family: var(--font-poiret);
     transition: text-shadow 0.3s ease;
+    text-transform: uppercase;
 }
 
 .footer__link:hover {
     text-shadow: 0 -1px 20px rgba(255, 255, 255, 0.54), 0 0 6px rgba(255, 255, 255, 0.57), 0 1px 1px #000;
+}
+
+.footer__contacts .footer__link[href^="tel:"] {
+    font-size: 32px;
+}
+
+.footer__contacts .footer__link:last-child {
+    font-size: 24px;
+}
+
+.footer__logo svg {
+    width: 192px;
+    height: 107.44px;
 }
 
 
@@ -49,28 +72,26 @@
         padding: 40px 0;
     }
 
-    .footer__wrapper {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-end;
-        gap: 24px;
-    }
-
     .footer__inner {
         gap: 30px;
-        flex-wrap: wrap;
     }
 
     .footer__link {
-        font-size: 16px;
+        font-size: 14px;
+    }
+
+    .footer__contacts .footer__link[href^="tel:"] {
+        font-size: 20px;
+    }
+
+    .footer__contacts .footer__link:last-child {
+        font-size: 15px;
     }
 }
 
 @media (max-width: 480px) {
     .footer__inner {
-        flex-direction: row;
         gap: 8px;
-        flex-wrap: wrap;
     }
 
     .footer__link {
@@ -80,5 +101,13 @@
     .footer__logo svg {
         width: 60px;
         height: auto;
+    }
+
+    .footer__contacts .footer__link[href^="tel:"] {
+        font-size: 9px;
+    }
+
+    .footer__contacts .footer__link:last-child {
+        font-size: 7px;
     }
 }
