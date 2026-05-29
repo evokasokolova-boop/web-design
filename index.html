@@ -10,10 +10,21 @@
 
 <body>
     <header class="header">
+        <button class="header_burger-btn">
+            <div class="burger-icon-wrapper">
+                <svg width="35" height="28" class="burger-horizontal">
+                    <use xlink:href="assets/sprite/sprite.svg#burger-icon"></use>
+                </svg>
+                <svg width="35" height="28" class="burger-vertical">
+                    <use xlink:href="assets/sprite/sprite.svg#burger-icon"></use>
+                </svg>
+            </div>
+        </button>
         <ul class="header_list container">
-            <li class="header_item"><a href="#" class="header_link">профиль</a></li>
-            <li class="header_item"><a href="catalog.html" class="header_link">каталог</a></li>
-            <li class="header_item">
+            <li class="header_item header_item--mobile-only"><a href="index.html" class="header_link">главная</a></li>
+            <li class="header_item header_item--text"><a href="#" class="header_link">профиль</a></li>
+            <li class="header_item header_item--text"><a href="catalog.html" class="header_link">каталог</a></li>
+            <li class="header_item header_item--logo">
                 <a href="#" class="header_link">
                     <svg width="37" height="33" viewBox="0 0 37 33">
                         <use xlink:href="assets/sprite/sprite.svg#logo-icon"></use>
@@ -122,10 +133,12 @@
                 </svg>
             </a>
             <div class="footer__inner">
-                <a href="tel:+79522791308" target="_blank" class="footer__link">+7(952) 279 1308</a>
-                <a href="https://web.telegram.org/a/" target="_blank" class="footer__link">telegram</a>
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="footer__link">instagram</a>
-                <a href="#" target="_blank" class="footer__link">оплата и доставка</a>
+                <a href="#" target="_blank" class="footer__link">VK</a>
+                <a href="#" target="_blank" class="footer__link">MAX</a>
+                <div class="footer__contacts">
+                    <a href="tel:+79522791308" class="footer__link">+7(952) 279 1308</a>
+                    <a href="#" class="footer__link">оплата и доставка</a>
+                </div>
             </div>
         </div>
     </footer>
